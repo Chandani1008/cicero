@@ -94,7 +94,7 @@ We have very precise rules over how our git commit messages can be formatted.  T
 readable messages** that are easy to follow when looking through the **project history** and **git logs**.  
 But also, we use the git commit messages to **generate the Cicero change log**.
 
-The commit message formatting can be added using a version of typical git workflow.
+The commit message formatting can be added using a version of a typical git workflow.
 
 ### Commit Message Format
 Each commit message consists of a mandatory **type**, **scope**, **subject**, and **footer**. This is a specific format:
@@ -142,7 +142,7 @@ The subject contains succinct description of the change:
 The footer should contain [reference GitHub Issues][github-issues] that this commit addresses.
 
 ## <a name="pullrequests"></a> GitHub Pull Request Guidelines
-Pull Requests should consist of a complete addition to the code which contains value. 
+Pull Requests should consist of a complete addition to the code which contains a value. 
 Because the commits inside follow a pattern, the title should be an extension or summary of all the commits inside.
 
 Pull Request titles should follow [commit message formatting][developers.commits].
@@ -157,7 +157,7 @@ Formatting for the body is displayed in this example:
   - Subchange one
   - Subchange two
 - Change two
-- Theoretically this should be listing all the commit messages included in this PR
+- Theoretically, this should be listing all the commit messages included in this PR
 
 ### Flags
 - Possible issues or holds for reviewers to note
